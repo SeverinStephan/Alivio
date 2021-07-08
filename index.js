@@ -18,7 +18,9 @@ app.get('/community', (req, res) => {
 })
 
 
-
+app.use((req, res) => {
+    res.status(404).sendFile('./views/404.html', { root: __dirname })
+})
 
 
 app.listen(port, () => {

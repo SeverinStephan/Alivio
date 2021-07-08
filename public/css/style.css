@@ -173,3 +173,72 @@ footer div{
 footer ul li{
     padding-top: 25px;
 }
+
+.solution{
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+}
+
+.solution img{
+    width: 80%;
+}
+
+.solution h1{
+    font-size: 50px;
+}
+
+.solution p{
+    margin-bottom: 20px;
+}
+
+.play{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 26%;
+    bottom: 37%;
+}
+
+body{
+    position: relative;
+}
+
+.community{
+    display: flex;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.blond{
+    margin-left: 15%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.blond img:first-child{
+    width: 100%;
+}
+
+.blond img:last-child{
+    position: relative;
+    bottom: 23%;
+    left: -20%;
+}
+
+.community h1{
+    font-size: 50px;
+    width: 75%;
+}
+
+.community p{
+    width: 57%;
+    margin-bottom: 15px;
+}
+
+.error img{
+    width: 45%;
+    margin-left: 27%;
+    margin-top: 7%;
+}
